@@ -28,6 +28,28 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "197398402A01ADE800946F22"
+               BuildableName = "Food TruckUITests.xctest"
+               BlueprintName = "Food TruckUITests"
+               ReferencedContainer = "container:Food Truck.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1973984F2A01ADEF00946F22"
+               BuildableName = "Food TruckTests.xctest"
+               BlueprintName = "Food TruckTests"
+               ReferencedContainer = "container:Food Truck.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
