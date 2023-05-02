@@ -7,59 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		197398442A01ADE800946F22 /* Food_TruckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197398432A01ADE800946F22 /* Food_TruckUITests.swift */; };
-		197398462A01ADE800946F22 /* Food_TruckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197398452A01ADE800946F22 /* Food_TruckUITestsLaunchTests.swift */; };
-		197398532A01ADEF00946F22 /* Food_TruckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 197398522A01ADEF00946F22 /* Food_TruckTests.swift */; };
+		19395BA52A01C12C00632D28 /* Food_TruckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19395BA42A01C12C00632D28 /* Food_TruckUITests.swift */; };
+		19395BA72A01C12C00632D28 /* Food_TruckUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19395BA62A01C12C00632D28 /* Food_TruckUITestsLaunchTests.swift */; };
+		19395BB42A01C13100632D28 /* Food_TruckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19395BB32A01C13100632D28 /* Food_TruckTests.swift */; };
 		6178CE6E2845B07E00F240E8 /* CardNavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6178CE6D2845B07E00F240E8 /* CardNavigationHeader.swift */; };
-		6178CE6F2845B07E00F240E8 /* CardNavigationHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6178CE6D2845B07E00F240E8 /* CardNavigationHeader.swift */; };
 		84ACCDC3282D671600756FB7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84ACCDC1282D671600756FB7 /* Localizable.strings */; };
 		84ACCDC6282D671600756FB7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84ACCDC4282D671600756FB7 /* Localizable.strings */; };
 		E039E3542834AC4800508176 /* SalesHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039E3522834AC4800508176 /* SalesHistoryView.swift */; };
 		E039E3552834AC4800508176 /* SalesHistoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039E3532834AC4800508176 /* SalesHistoryChart.swift */; };
-		E0510735283C187300FCE3E6 /* DonutGalleryGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BF428233374007B925B /* DonutGalleryGrid.swift */; };
-		E0510737283C187300FCE3E6 /* TruckOrdersCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3672833222700040525 /* TruckOrdersCard.swift */; };
-		E0510738283C187300FCE3E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C1A282333B8007B925B /* ContentView.swift */; };
-		E0510739283C187300FCE3E6 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C2C2823375B007B925B /* App.swift */; };
-		E051073A283C187300FCE3E6 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C082823339E007B925B /* OrderDetailView.swift */; };
-		E051073B283C187300FCE3E6 /* SocialFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C092823339E007B925B /* SocialFeedView.swift */; };
-		E051073C283C187300FCE3E6 /* OrderCompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C0A2823339E007B925B /* OrderCompleteView.swift */; };
-		E051073F283C187300FCE3E6 /* RecommendedParkingSpotCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BEA282331AA007B925B /* RecommendedParkingSpotCard.swift */; };
-		E0510740283C187300FCE3E6 /* StoreSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C22282333C9007B925B /* StoreSupportView.swift */; };
-		E0510741283C187300FCE3E6 /* DonutEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BF328233374007B925B /* DonutEditor.swift */; };
-		E0510742283C187300FCE3E6 /* SalesHistoryChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039E3532834AC4800508176 /* SalesHistoryChart.swift */; };
-		E0510746283C187300FCE3E6 /* RefundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C24282333C9007B925B /* RefundView.swift */; platformFilter = ios; };
-		E0510747283C187300FCE3E6 /* UnlockFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C21282333C9007B925B /* UnlockFeatureView.swift */; };
-		E0510748283C187300FCE3E6 /* CardNavigationHeaderLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3642833222500040525 /* CardNavigationHeaderLabelStyle.swift */; };
-		E0510749283C187300FCE3E6 /* TruckDonutsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3682833222700040525 /* TruckDonutsCard.swift */; };
-		E051074A283C187300FCE3E6 /* DonutGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BF728233374007B925B /* DonutGallery.swift */; };
-		E051074B283C187300FCE3E6 /* SocialFeedPlusSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C23282333C9007B925B /* SocialFeedPlusSettings.swift */; };
-		E051074C283C187300FCE3E6 /* DetailColumn.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C1B282333B8007B925B /* DetailColumn.swift */; };
-		E051074D283C187300FCE3E6 /* WidthThresholdReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C14282333AE007B925B /* WidthThresholdReader.swift */; };
-		E051074E283C187300FCE3E6 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BE028233197007B925B /* SignUpView.swift */; };
-		E051074F283C187300FCE3E6 /* CityWeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BE8282331AA007B925B /* CityWeatherCard.swift */; };
-		E0510750283C187300FCE3E6 /* SubscriptionStoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C20282333C9007B925B /* SubscriptionStoreView.swift */; };
-		E0510751283C187300FCE3E6 /* TruckSocialFeedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3652833222600040525 /* TruckSocialFeedCard.swift */; };
-		E0510752283C187300FCE3E6 /* TruckWeatherCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3662833222600040525 /* TruckWeatherCard.swift */; };
-		E0510753283C187300FCE3E6 /* DetailedMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BE6282331AA007B925B /* DetailedMapView.swift */; };
-		E0510754283C187300FCE3E6 /* ParkingSpotShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BE9282331AA007B925B /* ParkingSpotShowcaseView.swift */; };
-		E0510756283C187300FCE3E6 /* CityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BE7282331AA007B925B /* CityView.swift */; };
-		E0510757283C187300FCE3E6 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C1C282333B8007B925B /* Sidebar.swift */; };
-		E051075A283C187300FCE3E6 /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C0C2823339F007B925B /* OrdersView.swift */; };
-		E051075C283C187300FCE3E6 /* SalesHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E039E3522834AC4800508176 /* SalesHistoryView.swift */; };
-		E051075D283C187300FCE3E6 /* TruckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C0B2823339F007B925B /* TruckView.swift */; };
-		E051075E283C187300FCE3E6 /* SocialFeedPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C072823339E007B925B /* SocialFeedPostView.swift */; };
-		E051075F283C187300FCE3E6 /* OrderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC35D2833175500040525 /* OrderRow.swift */; };
-		E0510761283C187300FCE3E6 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BE228233197007B925B /* AccountView.swift */; };
-		E0510763283C187300FCE3E6 /* FoodTruckKit in Frameworks */ = {isa = PBXBuildFile; productRef = E0510733283C187300FCE3E6 /* FoodTruckKit */; };
-		E0510765283C187300FCE3E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C37BC82823189D007B925B /* Assets.xcassets */; };
-		E0510767283C187300FCE3E6 /* Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E0C37C3228234145007B925B /* Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E08260F828CA97B000071BA9 /* TruckActivityWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08260F728CA97B000071BA9 /* TruckActivityWidget.swift */; };
 		E08260FA28CAA2FD00071BA9 /* TruckActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08260F928CAA2FD00071BA9 /* TruckActivityAttributes.swift */; };
-		E08260FB28CAA30D00071BA9 /* TruckActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08260F928CAA2FD00071BA9 /* TruckActivityAttributes.swift */; };
 		E08260FC28CAA30D00071BA9 /* TruckActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08260F928CAA2FD00071BA9 /* TruckActivityAttributes.swift */; };
 		E08260FD28CAA3AD00071BA9 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A534283EBD67007D5B83 /* FlowLayout.swift */; };
 		E08D7060283C492C00014B89 /* SocialFeedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D705F283C492C00014B89 /* SocialFeedContent.swift */; };
-		E08D7061283C492C00014B89 /* SocialFeedContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08D705F283C492C00014B89 /* SocialFeedContent.swift */; };
 		E09DC35E2833175500040525 /* OrderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC35D2833175500040525 /* OrderRow.swift */; };
 		E09DC3692833222700040525 /* CardNavigationHeaderLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3642833222500040525 /* CardNavigationHeaderLabelStyle.swift */; };
 		E09DC36A2833222700040525 /* TruckSocialFeedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3652833222600040525 /* TruckSocialFeedCard.swift */; };
@@ -67,7 +27,6 @@
 		E09DC36C2833222700040525 /* TruckOrdersCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3672833222700040525 /* TruckOrdersCard.swift */; };
 		E09DC36D2833222700040525 /* TruckDonutsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DC3682833222700040525 /* TruckDonutsCard.swift */; };
 		E0B61CCA28416DFF00369D37 /* OrdersTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B61CC928416DFF00369D37 /* OrdersTable.swift */; };
-		E0B61CCB28416DFF00369D37 /* OrdersTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B61CC928416DFF00369D37 /* OrdersTable.swift */; };
 		E0C37BC92823189D007B925B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C37BC82823189D007B925B /* Assets.xcassets */; };
 		E0C37BDF28232B8B007B925B /* FoodTruckKit in Frameworks */ = {isa = PBXBuildFile; productRef = E0C37BDE28232B8B007B925B /* FoodTruckKit */; };
 		E0C37BE328233197007B925B /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37BE028233197007B925B /* SignUpView.swift */; };
@@ -107,41 +66,27 @@
 		E0C37C5028235184007B925B /* ParkingSpotAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C37C4228234161007B925B /* ParkingSpotAccessory.swift */; };
 		E0C37C5328236A47007B925B /* Widgets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E0C37C3228234145007B925B /* Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		E0C4A527283E8FD5007D5B83 /* ShowTopDonutsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A522283E8FD4007D5B83 /* ShowTopDonutsIntent.swift */; };
-		E0C4A528283E8FD5007D5B83 /* ShowTopDonutsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A522283E8FD4007D5B83 /* ShowTopDonutsIntent.swift */; };
 		E0C4A529283E8FD5007D5B83 /* ShowTopDonutsIntentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A523283E8FD4007D5B83 /* ShowTopDonutsIntentView.swift */; };
-		E0C4A52A283E8FD5007D5B83 /* ShowTopDonutsIntentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A523283E8FD4007D5B83 /* ShowTopDonutsIntentView.swift */; };
 		E0C4A52B283E8FD5007D5B83 /* TopFiveDonutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A524283E8FD5007D5B83 /* TopFiveDonutsView.swift */; };
-		E0C4A52C283E8FD5007D5B83 /* TopFiveDonutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A524283E8FD5007D5B83 /* TopFiveDonutsView.swift */; };
 		E0C4A52D283E8FD5007D5B83 /* TopDonutSalesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A525283E8FD5007D5B83 /* TopDonutSalesChart.swift */; };
-		E0C4A52E283E8FD5007D5B83 /* TopDonutSalesChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A525283E8FD5007D5B83 /* TopDonutSalesChart.swift */; };
 		E0C4A52F283E8FD5007D5B83 /* TopFiveDonutsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A526283E8FD5007D5B83 /* TopFiveDonutsChart.swift */; };
-		E0C4A530283E8FD5007D5B83 /* TopFiveDonutsChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A526283E8FD5007D5B83 /* TopFiveDonutsChart.swift */; };
 		E0C4A535283EBD67007D5B83 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A534283EBD67007D5B83 /* FlowLayout.swift */; };
-		E0C4A536283EBD67007D5B83 /* FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C4A534283EBD67007D5B83 /* FlowLayout.swift */; };
-		E0E829162845662200C89BF7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84ACCDC1282D671600756FB7 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		197398472A01ADE800946F22 /* PBXContainerItemProxy */ = {
+		19395BA82A01C12C00632D28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E0C37BB92823189A007B925B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E0C37BC02823189A007B925B;
 			remoteInfo = "Food Truck";
 		};
-		197398542A01ADEF00946F22 /* PBXContainerItemProxy */ = {
+		19395BB52A01C13100632D28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E0C37BB92823189A007B925B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E0C37BC02823189A007B925B;
 			remoteInfo = "Food Truck";
-		};
-		E0510732283C187300FCE3E6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E0C37BB92823189A007B925B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E0C37C3128234145007B925B;
-			remoteInfo = Widgets;
 		};
 		E0C37C5428236B18007B925B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -153,17 +98,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E0510766283C187300FCE3E6 /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				E0510767283C187300FCE3E6 /* Widgets.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E0C37C5228236A2E007B925B /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -178,11 +112,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		197398412A01ADE800946F22 /* Food TruckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food TruckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		197398432A01ADE800946F22 /* Food_TruckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TruckUITests.swift; sourceTree = "<group>"; };
-		197398452A01ADE800946F22 /* Food_TruckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TruckUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		197398502A01ADEF00946F22 /* Food TruckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food TruckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		197398522A01ADEF00946F22 /* Food_TruckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TruckTests.swift; sourceTree = "<group>"; };
+		19395BA22A01C12C00632D28 /* Food TruckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food TruckUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19395BA42A01C12C00632D28 /* Food_TruckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TruckUITests.swift; sourceTree = "<group>"; };
+		19395BA62A01C12C00632D28 /* Food_TruckUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TruckUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		19395BB12A01C13100632D28 /* Food TruckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food TruckTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19395BB32A01C13100632D28 /* Food_TruckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TruckTests.swift; sourceTree = "<group>"; };
 		6178CE6D2845B07E00F240E8 /* CardNavigationHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNavigationHeader.swift; sourceTree = "<group>"; };
 		7AE906C103F323E6CEF38CA5 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		84ACCDC5282D671600756FB7 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -190,7 +124,6 @@
 		84FE360C28404A830082F01A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E039E3522834AC4800508176 /* SalesHistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesHistoryView.swift; sourceTree = "<group>"; };
 		E039E3532834AC4800508176 /* SalesHistoryChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SalesHistoryChart.swift; sourceTree = "<group>"; };
-		E051076C283C187300FCE3E6 /* Food Truck All.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Truck All.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08260F728CA97B000071BA9 /* TruckActivityWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckActivityWidget.swift; sourceTree = "<group>"; };
 		E08260F928CAA2FD00071BA9 /* TruckActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TruckActivityAttributes.swift; sourceTree = "<group>"; };
 		E08260FE28CAA86100071BA9 /* Food-Truck-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Food-Truck-Info.plist"; sourceTree = "<group>"; };
@@ -258,25 +191,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1973983E2A01ADE800946F22 /* Frameworks */ = {
+		19395B9F2A01C12C00632D28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1973984D2A01ADEF00946F22 /* Frameworks */ = {
+		19395BAE2A01C13100632D28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0510762283C187300FCE3E6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0510763283C187300FCE3E6 /* FoodTruckKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,19 +235,19 @@
 			path = .;
 			sourceTree = "<group>";
 		};
-		197398422A01ADE800946F22 /* Food TruckUITests */ = {
+		19395BA32A01C12C00632D28 /* Food TruckUITests */ = {
 			isa = PBXGroup;
 			children = (
-				197398432A01ADE800946F22 /* Food_TruckUITests.swift */,
-				197398452A01ADE800946F22 /* Food_TruckUITestsLaunchTests.swift */,
+				19395BA42A01C12C00632D28 /* Food_TruckUITests.swift */,
+				19395BA62A01C12C00632D28 /* Food_TruckUITestsLaunchTests.swift */,
 			);
 			path = "Food TruckUITests";
 			sourceTree = "<group>";
 		};
-		197398512A01ADEF00946F22 /* Food TruckTests */ = {
+		19395BB22A01C13100632D28 /* Food TruckTests */ = {
 			isa = PBXGroup;
 			children = (
-				197398522A01ADEF00946F22 /* Food_TruckTests.swift */,
+				19395BB32A01C13100632D28 /* Food_TruckTests.swift */,
 			);
 			path = "Food TruckTests";
 			sourceTree = "<group>";
@@ -367,8 +292,8 @@
 				E0C37BC32823189A007B925B /* App */,
 				E0C37BDC282326EF007B925B /* FoodTruckKit */,
 				E0C37C3728234145007B925B /* Widgets */,
-				197398422A01ADE800946F22 /* Food TruckUITests */,
-				197398512A01ADEF00946F22 /* Food TruckTests */,
+				19395BA32A01C12C00632D28 /* Food TruckUITests */,
+				19395BB22A01C13100632D28 /* Food TruckTests */,
 				E0C37BDD28232B8B007B925B /* Frameworks */,
 				E0C37BC22823189A007B925B /* Products */,
 				DB809B5F6F06B12150E80E07 /* Configuration */,
@@ -381,9 +306,8 @@
 			children = (
 				E0C37BC12823189A007B925B /* Food Truck.app */,
 				E0C37C3228234145007B925B /* Widgets.appex */,
-				E051076C283C187300FCE3E6 /* Food Truck All.app */,
-				197398412A01ADE800946F22 /* Food TruckUITests.xctest */,
-				197398502A01ADEF00946F22 /* Food TruckTests.xctest */,
+				19395BA22A01C12C00632D28 /* Food TruckUITests.xctest */,
+				19395BB12A01C13100632D28 /* Food TruckTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -523,63 +447,41 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		197398402A01ADE800946F22 /* Food TruckUITests */ = {
+		19395BA12A01C12C00632D28 /* Food TruckUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 197398492A01ADE800946F22 /* Build configuration list for PBXNativeTarget "Food TruckUITests" */;
+			buildConfigurationList = 19395BAA2A01C12D00632D28 /* Build configuration list for PBXNativeTarget "Food TruckUITests" */;
 			buildPhases = (
-				1973983D2A01ADE800946F22 /* Sources */,
-				1973983E2A01ADE800946F22 /* Frameworks */,
-				1973983F2A01ADE800946F22 /* Resources */,
+				19395B9E2A01C12C00632D28 /* Sources */,
+				19395B9F2A01C12C00632D28 /* Frameworks */,
+				19395BA02A01C12C00632D28 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				197398482A01ADE800946F22 /* PBXTargetDependency */,
+				19395BA92A01C12C00632D28 /* PBXTargetDependency */,
 			);
 			name = "Food TruckUITests";
 			productName = "Food TruckUITests";
-			productReference = 197398412A01ADE800946F22 /* Food TruckUITests.xctest */;
+			productReference = 19395BA22A01C12C00632D28 /* Food TruckUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		1973984F2A01ADEF00946F22 /* Food TruckTests */ = {
+		19395BB02A01C13100632D28 /* Food TruckTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 197398562A01ADEF00946F22 /* Build configuration list for PBXNativeTarget "Food TruckTests" */;
+			buildConfigurationList = 19395BB72A01C13100632D28 /* Build configuration list for PBXNativeTarget "Food TruckTests" */;
 			buildPhases = (
-				1973984C2A01ADEF00946F22 /* Sources */,
-				1973984D2A01ADEF00946F22 /* Frameworks */,
-				1973984E2A01ADEF00946F22 /* Resources */,
+				19395BAD2A01C13100632D28 /* Sources */,
+				19395BAE2A01C13100632D28 /* Frameworks */,
+				19395BAF2A01C13100632D28 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				197398552A01ADEF00946F22 /* PBXTargetDependency */,
+				19395BB62A01C13100632D28 /* PBXTargetDependency */,
 			);
 			name = "Food TruckTests";
 			productName = "Food TruckTests";
-			productReference = 197398502A01ADEF00946F22 /* Food TruckTests.xctest */;
+			productReference = 19395BB12A01C13100632D28 /* Food TruckTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E0510730283C187300FCE3E6 /* Food Truck All */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E0510769283C187300FCE3E6 /* Build configuration list for PBXNativeTarget "Food Truck All" */;
-			buildPhases = (
-				E0510734283C187300FCE3E6 /* Sources */,
-				E0510762283C187300FCE3E6 /* Frameworks */,
-				E0510764283C187300FCE3E6 /* Resources */,
-				E0510766283C187300FCE3E6 /* Embed Foundation Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E0510731283C187300FCE3E6 /* PBXTargetDependency */,
-			);
-			name = "Food Truck All";
-			packageProductDependencies = (
-				E0510733283C187300FCE3E6 /* FoodTruckKit */,
-			);
-			productName = "Food Truck";
-			productReference = E051076C283C187300FCE3E6 /* Food Truck All.app */;
-			productType = "com.apple.product-type.application";
 		};
 		E0C37BC02823189A007B925B /* Food Truck */ = {
 			isa = PBXNativeTarget;
@@ -635,11 +537,11 @@
 				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = Apple;
 				TargetAttributes = {
-					197398402A01ADE800946F22 = {
+					19395BA12A01C12C00632D28 = {
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = E0C37BC02823189A007B925B;
 					};
-					1973984F2A01ADEF00946F22 = {
+					19395BB02A01C13100632D28 = {
 						CreatedOnToolsVersion = 14.3;
 						TestTargetID = E0C37BC02823189A007B925B;
 					};
@@ -666,35 +568,25 @@
 			projectRoot = "";
 			targets = (
 				E0C37BC02823189A007B925B /* Food Truck */,
-				E0510730283C187300FCE3E6 /* Food Truck All */,
 				E0C37C3128234145007B925B /* Widgets */,
-				197398402A01ADE800946F22 /* Food TruckUITests */,
-				1973984F2A01ADEF00946F22 /* Food TruckTests */,
+				19395BA12A01C12C00632D28 /* Food TruckUITests */,
+				19395BB02A01C13100632D28 /* Food TruckTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1973983F2A01ADE800946F22 /* Resources */ = {
+		19395BA02A01C12C00632D28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1973984E2A01ADEF00946F22 /* Resources */ = {
+		19395BAF2A01C13100632D28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0510764283C187300FCE3E6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0510765283C187300FCE3E6 /* Assets.xcassets in Resources */,
-				E0E829162845662200C89BF7 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,71 +611,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1973983D2A01ADE800946F22 /* Sources */ = {
+		19395B9E2A01C12C00632D28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				197398462A01ADE800946F22 /* Food_TruckUITestsLaunchTests.swift in Sources */,
-				197398442A01ADE800946F22 /* Food_TruckUITests.swift in Sources */,
+				19395BA72A01C12C00632D28 /* Food_TruckUITestsLaunchTests.swift in Sources */,
+				19395BA52A01C12C00632D28 /* Food_TruckUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1973984C2A01ADEF00946F22 /* Sources */ = {
+		19395BAD2A01C13100632D28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				197398532A01ADEF00946F22 /* Food_TruckTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0510734283C187300FCE3E6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0510735283C187300FCE3E6 /* DonutGalleryGrid.swift in Sources */,
-				E0C4A52A283E8FD5007D5B83 /* ShowTopDonutsIntentView.swift in Sources */,
-				E0510737283C187300FCE3E6 /* TruckOrdersCard.swift in Sources */,
-				E0510738283C187300FCE3E6 /* ContentView.swift in Sources */,
-				E0510739283C187300FCE3E6 /* App.swift in Sources */,
-				E051073A283C187300FCE3E6 /* OrderDetailView.swift in Sources */,
-				E051073B283C187300FCE3E6 /* SocialFeedView.swift in Sources */,
-				E051073C283C187300FCE3E6 /* OrderCompleteView.swift in Sources */,
-				E051073F283C187300FCE3E6 /* RecommendedParkingSpotCard.swift in Sources */,
-				E0510740283C187300FCE3E6 /* StoreSupportView.swift in Sources */,
-				E0510741283C187300FCE3E6 /* DonutEditor.swift in Sources */,
-				E0510742283C187300FCE3E6 /* SalesHistoryChart.swift in Sources */,
-				E0C4A528283E8FD5007D5B83 /* ShowTopDonutsIntent.swift in Sources */,
-				E0510746283C187300FCE3E6 /* RefundView.swift in Sources */,
-				E0510747283C187300FCE3E6 /* UnlockFeatureView.swift in Sources */,
-				E0510748283C187300FCE3E6 /* CardNavigationHeaderLabelStyle.swift in Sources */,
-				E0510749283C187300FCE3E6 /* TruckDonutsCard.swift in Sources */,
-				E051074A283C187300FCE3E6 /* DonutGallery.swift in Sources */,
-				E051074B283C187300FCE3E6 /* SocialFeedPlusSettings.swift in Sources */,
-				E0C4A536283EBD67007D5B83 /* FlowLayout.swift in Sources */,
-				E051074C283C187300FCE3E6 /* DetailColumn.swift in Sources */,
-				E051074D283C187300FCE3E6 /* WidthThresholdReader.swift in Sources */,
-				E051074E283C187300FCE3E6 /* SignUpView.swift in Sources */,
-				E051074F283C187300FCE3E6 /* CityWeatherCard.swift in Sources */,
-				E0510750283C187300FCE3E6 /* SubscriptionStoreView.swift in Sources */,
-				E0510751283C187300FCE3E6 /* TruckSocialFeedCard.swift in Sources */,
-				E08D7061283C492C00014B89 /* SocialFeedContent.swift in Sources */,
-				E0510752283C187300FCE3E6 /* TruckWeatherCard.swift in Sources */,
-				E0510753283C187300FCE3E6 /* DetailedMapView.swift in Sources */,
-				E08260FB28CAA30D00071BA9 /* TruckActivityAttributes.swift in Sources */,
-				E0510754283C187300FCE3E6 /* ParkingSpotShowcaseView.swift in Sources */,
-				E0510756283C187300FCE3E6 /* CityView.swift in Sources */,
-				E0510757283C187300FCE3E6 /* Sidebar.swift in Sources */,
-				E0C4A52C283E8FD5007D5B83 /* TopFiveDonutsView.swift in Sources */,
-				E051075A283C187300FCE3E6 /* OrdersView.swift in Sources */,
-				E051075C283C187300FCE3E6 /* SalesHistoryView.swift in Sources */,
-				E051075D283C187300FCE3E6 /* TruckView.swift in Sources */,
-				E0C4A52E283E8FD5007D5B83 /* TopDonutSalesChart.swift in Sources */,
-				E0B61CCB28416DFF00369D37 /* OrdersTable.swift in Sources */,
-				E051075E283C187300FCE3E6 /* SocialFeedPostView.swift in Sources */,
-				6178CE6F2845B07E00F240E8 /* CardNavigationHeader.swift in Sources */,
-				E051075F283C187300FCE3E6 /* OrderRow.swift in Sources */,
-				E0510761283C187300FCE3E6 /* AccountView.swift in Sources */,
-				E0C4A530283E8FD5007D5B83 /* TopFiveDonutsChart.swift in Sources */,
+				19395BB42A01C13100632D28 /* Food_TruckTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,20 +697,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		197398482A01ADE800946F22 /* PBXTargetDependency */ = {
+		19395BA92A01C12C00632D28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E0C37BC02823189A007B925B /* Food Truck */;
-			targetProxy = 197398472A01ADE800946F22 /* PBXContainerItemProxy */;
+			targetProxy = 19395BA82A01C12C00632D28 /* PBXContainerItemProxy */;
 		};
-		197398552A01ADEF00946F22 /* PBXTargetDependency */ = {
+		19395BB62A01C13100632D28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E0C37BC02823189A007B925B /* Food Truck */;
-			targetProxy = 197398542A01ADEF00946F22 /* PBXContainerItemProxy */;
-		};
-		E0510731283C187300FCE3E6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E0C37C3128234145007B925B /* Widgets */;
-			targetProxy = E0510732283C187300FCE3E6 /* PBXContainerItemProxy */;
+			targetProxy = 19395BB52A01C13100632D28 /* PBXContainerItemProxy */;
 		};
 		E0C37C5528236B18007B925B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -899,7 +735,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1973984A2A01ADE800946F22 /* Debug */ = {
+		19395BAB2A01C12D00632D28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -908,20 +744,17 @@
 				DEVELOPMENT_TEAM = Z2Y6N565X9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.moataz.Food-TruckUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Food Truck";
 			};
 			name = Debug;
 		};
-		1973984B2A01ADE800946F22 /* Release */ = {
+		19395BAC2A01C12D00632D28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -930,20 +763,18 @@
 				DEVELOPMENT_TEAM = Z2Y6N565X9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.moataz.Food-TruckUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = macosx;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Food Truck";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		197398572A01ADEF00946F22 /* Debug */ = {
+		19395BB82A01C13100632D28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -955,20 +786,18 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.moataz.Food-TruckTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Truck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Food Truck";
 			};
 			name = Debug;
 		};
-		197398582A01ADEF00946F22 /* Release */ = {
+		19395BB92A01C13100632D28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -980,110 +809,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.moataz.Food-TruckTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Food Truck.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Food Truck";
-			};
-			name = Release;
-		};
-		E051076A283C187300FCE3E6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C1D33EEFB6F5E9930C5AA2 /* SampleCode.xcconfig */;
-			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "App/Entitlements-All.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = Z2Y6N565X9;
-				ENABLE_HARDENED_RUNTIME = YES;
-				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "App/Food-Truck-All-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Food Truck";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
-				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphone*]" = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG EXTENDED_ALL";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		E051076B283C187300FCE3E6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F8C1D33EEFB6F5E9930C5AA2 /* SampleCode.xcconfig */;
-			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "App/Entitlements-All.entitlements";
-				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = Z2Y6N565X9;
-				ENABLE_HARDENED_RUNTIME = YES;
-				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "App/Food-Truck-All-Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Food Truck";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
-				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphone*]" = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 13.3;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = EXTENDED_ALL;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1240,7 +973,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
+				PRODUCT_BUNDLE_IDENTIFIER = deu.moataz.foodtruck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -1285,7 +1018,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
+				PRODUCT_BUNDLE_IDENTIFIER = deu.moataz.foodtruck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = auto;
@@ -1321,7 +1054,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
+				PRODUCT_BUNDLE_IDENTIFIER = deu.moataz.foodtruck.ext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1344,6 +1077,7 @@
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
 				CODE_SIGN_ENTITLEMENTS = Widgets/Widgets.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z2Y6N565X9;
@@ -1358,7 +1092,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = de.moataz.food.truck;
+				PRODUCT_BUNDLE_IDENTIFIER = deu.moataz.foodtruck.ext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -1376,32 +1110,23 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		197398492A01ADE800946F22 /* Build configuration list for PBXNativeTarget "Food TruckUITests" */ = {
+		19395BAA2A01C12D00632D28 /* Build configuration list for PBXNativeTarget "Food TruckUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1973984A2A01ADE800946F22 /* Debug */,
-				1973984B2A01ADE800946F22 /* Release */,
+				19395BAB2A01C12D00632D28 /* Debug */,
+				19395BAC2A01C12D00632D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		197398562A01ADEF00946F22 /* Build configuration list for PBXNativeTarget "Food TruckTests" */ = {
+		19395BB72A01C13100632D28 /* Build configuration list for PBXNativeTarget "Food TruckTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				197398572A01ADEF00946F22 /* Debug */,
-				197398582A01ADEF00946F22 /* Release */,
+				19395BB82A01C13100632D28 /* Debug */,
+				19395BB92A01C13100632D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E0510769283C187300FCE3E6 /* Build configuration list for PBXNativeTarget "Food Truck All" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E051076A283C187300FCE3E6 /* Debug */,
-				E051076B283C187300FCE3E6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		E0C37BBC2823189A007B925B /* Build configuration list for PBXProject "Food Truck" */ = {
 			isa = XCConfigurationList;
@@ -1410,7 +1135,7 @@
 				E0C37BCF2823189D007B925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		E0C37BD02823189D007B925B /* Build configuration list for PBXNativeTarget "Food Truck" */ = {
 			isa = XCConfigurationList;
@@ -1419,7 +1144,7 @@
 				E0C37BD22823189D007B925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		E0C37C3F28234148007B925B /* Build configuration list for PBXNativeTarget "Widgets" */ = {
 			isa = XCConfigurationList;
@@ -1428,15 +1153,11 @@
 				E0C37C4128234148007B925B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E0510733283C187300FCE3E6 /* FoodTruckKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = FoodTruckKit;
-		};
 		E0C37BDE28232B8B007B925B /* FoodTruckKit */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FoodTruckKit;
