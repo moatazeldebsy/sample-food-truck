@@ -1,0 +1,6 @@
+app_identifier("deut.moataz.foodtruck") # The bundle identifier of your app
+team_id("Moataz El Debsy")
+
+# For more information about the Appfile, see:
+
+# https://docs.fastlane.tools/advanced/#appfile
